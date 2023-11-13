@@ -2,83 +2,114 @@ import React from "react";
 
 const faqQuestions = [
   {
-    question: "What is the GPT Assistant?",
+    question: "What is FastLearn?",
     answer: (
       <>
         <p>
-          The GPT Assistant is a powerful tool that harnesses the capabilities
-          of GPT (Generative Pre-trained Transformer) with your own data. It
-          employs Retrieval Augmented Generation (RAG) to augment your prompts
-          with information from various sources like PDFs, APIs, and text files.
+          FastLearn is an AI-powered platform designed to facilitate efficient
+          and personalized learning experiences. It utilizes advanced AI
+          algorithms to analyze learning materials and provides users with a
+          tailored and gamified approach to learning.
         </p>
         <p>Here's how it works:</p>
         <ul>
           <li>
-            Step 1: Data Augmentation - You provide prompts along with external
-            data sources such as PDFs and APIs.
+            Step 1: Choose a Subject - Users input a subject they want to learn
+            or improve, whether from scratch or to enhance existing knowledge.
           </li>
           <li>
-            Step 2: Information Extraction - The tool analyzes the data sources
-            and extracts key information for enhanced generation.
+            Step 2: AI-Powered Learning Enhancement - FastLearn employs advanced
+            AI algorithms to analyze the chosen subject and determine the best
+            approach to personalized learning.
           </li>
           <li>
-            Step 3: Insightful Responses - Based on your prompts and augmented
-            data, the GPT Assistant generates informative and context-rich
-            responses.
+            Step 3: Personalized and Gamified Learning - FastLearn provides a
+            personalized learning experience, tailored to the user's needs. It
+            also introduces a gamified element where users can earn points and
+            badges as they progress.
+          </li>
+          <li>
+            Step 4: Monitor Progress and Get Insights - FastLearn offers
+            insights and analytics about the user's learning journey, helping
+            them understand their progress and areas for improvement.
           </li>
         </ul>
       </>
     ),
   },
   {
-    question: "How can I benefit from the GPT Assistant?",
+    question: "How can I benefit from FastLearn?",
     answer:
-      "By using the GPT Assistant, you gain the ability to analyze and extract insights from large documents and data sources, conduct market research, generate detailed reports, and enhance your decision-making process.",
+      "FastLearn empowers you to efficiently and personally enhance your learning experiences. It tailors the learning process to your needs, introduces gamification for engagement, and provides insights to monitor and optimize your progress.",
   },
   {
-    question: "What types of data can I analyze with the GPT Assistant?",
+    question: "What types of subjects can I learn with FastLearn?",
     answer:
-      "The GPT Assistant allows you to analyze a variety of data sources, including PDFs, APIs, and text files. You can extract valuable information from these sources to gain insights into your business, competitors, and market trends.",
+      "FastLearn is versatile and accommodates a wide range of subjects. Whether you're starting from scratch or looking to deepen your knowledge, FastLearn can be applied to various learning materials and subjects.",
   },
   {
-    question: "How does the market research feature work?",
+    question: "How does the personalized learning feature work?",
     answer:
-      "Our AI-driven market research feature empowers you to analyze market trends and gather insights about your competitors. By inputting relevant data, you can obtain a deeper understanding of the market landscape and make informed decisions.",
+      "FastLearn's AI analyzes your chosen subject to create a personalized learning experience. This includes tailoring content and activities to your needs, ensuring an efficient and effective learning journey.",
   },
   {
-    question: "How can the GPT Assistant provide insights?",
+    question: "Can I track my learning progress with FastLearn?",
     answer:
-      "The GPT Assistant generates insights by processing your prompts and augmented data. It leverages the power of GPT to provide contextually relevant and valuable information, enabling you to uncover hidden patterns and make data-driven choices.",
+      "Yes, FastLearn provides insights and analytics about your learning journey. You can monitor your progress, identify strengths and areas for improvement, and make informed decisions to optimize your learning experience.",
   },
   {
-    question: "Can I generate detailed reports with the GPT Assistant?",
+    question: "Is FastLearn suitable for both beginners and advanced learners?",
     answer:
-      "Absolutely. The GPT Assistant allows you to create precise and comprehensive reports based on the information you provide. Whether for your own business or for clients, you can generate detailed reports that highlight key findings and recommendations.",
+      "Absolutely! FastLearn is designed to cater to learners of all levels. Whether you're starting from scratch or aiming to deepen your existing knowledge, FastLearn adapts to your learning needs.",
   },
   {
-    question: "Is my data secure?",
+    question: "Can I use FastLearn for professional development?",
     answer:
-      "Yes, we prioritize data privacy and security. Your data and generated responses are treated with utmost confidentiality. We adhere to stringent security measures and do not share your data with third parties without your explicit consent.",
+      "Yes, FastLearn is a valuable tool for professional development. You can input materials related to your field or industry, allowing FastLearn to enhance your knowledge and skills for career growth.",
   },
   {
-    question: "Can I customize the sources for data augmentation?",
+    question:
+      "How does the gamification aspect enhance the learning experience?",
     answer:
-      "Certainly. You have the flexibility to choose the data sources you want to augment your prompts with. Whether it's PDFs, APIs, or text files, you can tailor the data to align with your specific analytical needs.",
+      "The gamification aspect of FastLearn adds an engaging and motivating element to your learning journey. As you progress, you can earn points and badges, making the learning process more enjoyable and rewarding.",
   },
   {
-    question: "Is assistance available while using the GPT Assistant?",
+    question:
+      "Are there specific formats for the learning materials I can upload?",
     answer:
-      "Absolutely! Our platform offers a supportive community forum where you can connect with other users, seek advice, and share insights. Additionally, our experts and mentors are available to provide personalized guidance and assistance.",
+      "FastLearn supports various formats for learning materials, including documents, presentations, and more. You can upload content in common formats to ensure a seamless and personalized learning experience.",
   },
   {
-    question: "Is there a trial period for the GPT Assistant?",
+    question: "Can I collaborate with others on FastLearn?",
     answer:
-      "Yes, we offer a trial period during which you can explore the capabilities of the GPT Assistant. This allows you to experience the benefits firsthand and determine how it can enhance your analytical processes.",
+      "While FastLearn primarily focuses on personalized learning, we are actively working on collaborative features. Stay tuned for updates as we enhance the platform to accommodate group learning and collaboration.",
   },
   {
-    question: "How do I get started with the GPT Assistant?",
+    question: "How often should I expect insights about my learning progress?",
     answer:
-      "To begin using the GPT Assistant, simply sign up for an account on our platform. Once registered, you can start leveraging the power of GPT for data analysis, market research, insights, and report generation.",
+      "FastLearn provides regular insights and analytics to keep you informed about your learning progress. The frequency of updates depends on your usage, ensuring you have timely information to optimize your learning journey.",
+  },
+  {
+    question: "Is customer support available if I encounter any issues?",
+    answer:
+      "Yes, we offer customer support to assist you with any issues or questions you may have. Our dedicated support team is here to ensure you have a smooth and enjoyable experience with FastLearn.",
+  },
+  {
+    question:
+      "Can I integrate FastLearn with other learning platforms or tools?",
+    answer:
+      "Currently, FastLearn operates as a standalone platform. However, we are exploring integration possibilities to enhance interoperability with other learning tools. Keep an eye on our updates for any new integration features.",
+  },
+  {
+    question:
+      "What measures are in place to ensure the security of my learning materials?",
+    answer:
+      "We prioritize the security of your learning materials. FastLearn employs robust security measures to protect your data, ensuring confidentiality and peace of mind while you engage in your personalized learning journey.",
+  },
+  {
+    question: "Is there a mobile app for FastLearn?",
+    answer:
+      "As of now, FastLearn is accessible through web browsers. We are actively developing a mobile app to provide users with the flexibility to learn on the go. Stay tuned for the release of our mobile app.",
   },
 ];
 
@@ -106,10 +137,10 @@ const Faq = () => (
         <p className="mb-8 text-gray-500 lg:mb-16 text-2xl md:text-4xl font-bold dark:text-gray-700">
           FAQ{" "}
         </p>
-        <p className="pb-8">
+        <p className="text-base lg:text-lg lg:pb-14 text-gray-500">
           <strong>Frequently Asked Questions (FAQ)</strong> list is here answer
           some of the most common knowledge gaps. If you have any other
-          questions, please contact us on otavio@boostio.ai.
+          questions, please contact us.
         </p>
       </div>
     </div>

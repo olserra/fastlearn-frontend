@@ -47,20 +47,20 @@ const FeatureSection = () => (
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 md:gap-4 lg:px-32">
       <Step
-        title="1 - Upload Your Legal Documents"
-        description="User uploads PDFs on Boostio plataform, and we will safely store them in our cloud, in a vectorized format, which allows for easy access and analysis from our AI agent."
+        title="1 - Choose a subject to learn"
+        description="Users should type a subject that they would like to learn, either from scratch or get even better on an existing knowledge."
       />
       <Step
-        title="2 - Our AI Learn From Your Documents"
-        description="Our AI agent will learn from your documents, and extract the most important information, and insights, using a technique called RAG (Retrieval-Augmented Generation)."
+        title="2 - AI-Powered Learning Enhancement"
+        description="FastLearn employs advanced AI algorithms to analyze and understand the best approach to it. It will then provide you with a personalized learning experience, tailored to your needs"
       />
       <Step
-        title="3 - Activate the Intelligent Chat Agent"
-        description="With the extracted insights and information, activate your AI-powered legal assistant. You'll save countless hours of reading while ensuring that nothing important slips through the cracks."
+        title="3 - Learn in a Personalized and Gamified Way"
+        description="FastLearn will provide you with a personalized learning experience, tailored to your needs. It will also provide you with a gamified experience, where you can earn points and badges as you progress through your learning journey."
       />
       <Step
-        title="4 - Get Legal Insights for an Unfair Advantage"
-        description="By harnessing this powerful technology, you gain an unfair advantage over the competition. Save time, streamline your strategies, and access insights that competitors might overlook."
+        title="4 - Monitor your Progress and Get Insights"
+        description="Understand where you are and where you are going is key. FastLearn will provide you with insights and analytics about your learning journey, so you can understand your progress and where you are going."
       />
     </div>
   </div>

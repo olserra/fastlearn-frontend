@@ -93,7 +93,7 @@ const Footer = () => (
       </ul>
     </div>
     <div className="text-sm text-gray-500 mt-8">
-      © {new Date().getFullYear()} Boostio.
+      © {new Date().getFullYear()} FastLearn.
     </div>
   </footer>
 );
