@@ -10,12 +10,12 @@ export const DemoSection = () => {
         <p className="mb-8 md:mb-0 text-sm lg:text-base lg:px-16 pb-12">
           Our technology simplifies legal document analysis, and instantly
           condenses lengthy legal documents in a agent, for insightful
-          conversations. Boostio ensures the utmost privacy and security of your
-          data. <br />
+          conversations. FastLearn ensures the utmost privacy and security of
+          your data. <br />
           <br />
           Obtain unfair advantage in the legal field, saving countless hours of
           reading, and supercharging your legal strategies. Welcome to the
-          future of legal intelligence with Boostio.
+          future of legal intelligence with FastLearn.
         </p>
       </div>
       <iframe

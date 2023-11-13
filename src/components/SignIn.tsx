@@ -10,7 +10,7 @@ const SignIn = () => {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <h1 className="text-2xl font-bold mb-4">Welcome to Boostio</h1>
+      <h1 className="text-2xl font-bold mb-4">Welcome to FastLearn</h1>
       <p className="mb-4">Choose an option below to continue:</p>
       <div className="flex flex-row pt-12">
         <Button

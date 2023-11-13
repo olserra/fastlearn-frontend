@@ -72,7 +72,7 @@ const Pricing = () => (
         <strong>Premium plan:</strong> USD 10/month (per user)
       </p>
       <p className="py-8 text-gray-600">
-        Boostio is the <strong>most affordable all-in-one</strong> suite for
+        FastLearn is the <strong>most affordable all-in-one</strong> suite for
         everything people enablement. Plus, our prices adjust to your needs -
         without making you pay for modules you don’t want.
       </p>

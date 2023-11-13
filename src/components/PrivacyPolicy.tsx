@@ -7,12 +7,12 @@ const PrivacyPolicy = () => (
         Privacy Policy{" "}
       </p>
       <p className="text-sm text-gray-500">
-        Sure, here's an expanded version of the Privacy Policy for BoostioAI:
+        Sure, here's an expanded version of the Privacy Policy for FastLearnAI:
         Privacy Policy Effective Date: 21/02/2022 1. Introduction Welcome to
-        BoostioAI ("us", "we", or "our"). This Privacy Policy outlines how
-        BoostioAI collects, uses, discloses, and protects the personal
+        FastLearnAI ("us", "we", or "our"). This Privacy Policy outlines how
+        FastLearnAI collects, uses, discloses, and protects the personal
         information of visitors and users (collectively, "you" or "users") of
-        the BoostioAI website and related services (collectively, the
+        the FastLearnAI website and related services (collectively, the
         "Services"). We are committed to safeguarding your privacy and complying
         with applicable data protection laws, including the General Data
         Protection Regulation (GDPR) in the European Union. By accessing or
@@ -74,11 +74,11 @@ const PrivacyPolicy = () => (
         to review this page periodically for any updates. 8. Contact Us If you
         have any questions, concerns, or requests regarding this Privacy Policy
         or our data practices, please contact us at: otavio@boostio.ai. Thank
-        you for using BoostioAI! Please note that this is a general template and
-        should be reviewed and adapted to meet the specific privacy practices
-        and legal requirements of BoostioAI. Consulting with legal professionals
-        is recommended to ensure compliance with all applicable data protection
-        laws and regulations.
+        you for using FastLearnAI! Please note that this is a general template
+        and should be reviewed and adapted to meet the specific privacy
+        practices and legal requirements of FastLearnAI. Consulting with legal
+        professionals is recommended to ensure compliance with all applicable
+        data protection laws and regulations.
       </p>
     </div>
   </div>

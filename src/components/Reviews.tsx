@@ -16,7 +16,7 @@ const socialProofs: Testimonial[] = [
     role: "Senior Counsel",
     image: "/images/social-2.webp",
     quote:
-      "Boostio has transformed the way we handle legal documents. It's like having an entire legal library at our fingertips. An indispensable tool for legal professionals.",
+      "FastLearn has transformed the way we handle legal documents. It's like having an entire legal library at our fingertips. An indispensable tool for legal professionals.",
     backgroundColor: "#68a1e3",
   },
   {
@@ -24,7 +24,7 @@ const socialProofs: Testimonial[] = [
     role: "Managing Partner",
     image: "/images/social-1.webp",
     quote:
-      "As a managing partner, time is my most valuable asset. Boostio not only saves me hours of reading but also equips me with invaluable legal insights. It's a game-changer.",
+      "As a managing partner, time is my most valuable asset. FastLearn not only saves me hours of reading but also equips me with invaluable legal insights. It's a game-changer.",
     backgroundColor: "#e35957",
   },
   {
@@ -33,7 +33,7 @@ const socialProofs: Testimonial[] = [
     image:
       "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png",
     quote:
-      "Privacy is paramount in our field. Boostio's commitment to data security is commendable. It's the perfect blend of efficiency and confidentiality for legal professionals.",
+      "Privacy is paramount in our field. FastLearn's commitment to data security is commendable. It's the perfect blend of efficiency and confidentiality for legal professionals.",
     backgroundColor: "#74cc75",
   },
 ];

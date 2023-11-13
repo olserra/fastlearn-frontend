@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 
 interface IState {
-  youTubeData: [];
+  cards: [];
 }
 
 const Context = React.createContext([{}, () => {}]);
 
 const ContextProvider = (props: any) => {
   const [state, setState] = useState<IState>({
-    youTubeData: [],
+    cards: [],
   });
 
   return (

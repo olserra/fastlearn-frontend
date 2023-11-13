@@ -25,7 +25,7 @@ const Footer = () => (
     <div className="mb-8">
       <Image
         src={Logo}
-        alt="Boostio logo"
+        alt="FastLearn logo"
         width={40}
         height={10}
         className="mr-4"
