@@ -72,7 +72,7 @@ const CardList = ({ cards }: any) => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center">
-      {cards?.map(
+      {cards.map(
         (
           card: {
             title: string;
