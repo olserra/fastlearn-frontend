@@ -25,9 +25,10 @@ export default async function handler(
         },
       ],
       model: "gpt-3.5-turbo",
+      response_format: { type: "json_object" },
     });
-    console.log(completion);
-    return completion.choices[0];
+    console.log(completion.choices[0].message.content);
+    return completion.choices[0].message.content;
   }
   main();
 }
