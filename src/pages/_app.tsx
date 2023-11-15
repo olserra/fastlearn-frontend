@@ -41,7 +41,7 @@ const App = ({ Component, pageProps: { session, ...pageProps } }: any) => {
       <SessionProvider session={session}>
         <ContextProvider>
           <Component {...pageProps} />
-          <PrivacyModal />
+          {/* <PrivacyModal /> */}
         </ContextProvider>
       </SessionProvider>
     </>
